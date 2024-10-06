@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Login Page</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #4A90E2, #2C6FC7);
+    }
+    .login-container {
+      width: 300px;
+      padding: 2em;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      text-align: center;
+    }
+    .login-container img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 1em;
+    }
+    .login-container h2 {
+      margin: 0 0 1em;
+    }
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 0.75em;
+      margin: 0.5em 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .login-container button {
+      width: 100%;
+      padding: 0.75em;
+      background-color: #4A90E2;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .login-container button:hover {
+      background-color: #3b7bbf;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <img src="https://scontent.fmnl13-4.fna.fbcdn.net/v/t39.30808-6/329239869_3475759276074510_3558211616586495697_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFAJJRl8I41KSq65xS6OLfIwdcosFif7KLB1yiwWJ_soi4KNuepu1kSkBQ40chCZ6rblIsFfEmv-tyWe8OxgzaM&_nc_ohc=kKZnQuQbUxYQ7kNvgEqKR7-&_nc_ht=scontent.fmnl13-4.fna&_nc_gid=AmSueCa-trOXXMIcB6YqRCy&oh=00_AYBKlwrFyUSqUHohmZXB6-pDfYfVnG8AzlQB84Tj-O50Mg&oe=67084C22" alt="Logo">
+    <h2>Login</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Log In</button>
+    </form>
+  </div>
+</body>
+</html>
